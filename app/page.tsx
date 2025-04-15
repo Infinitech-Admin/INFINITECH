@@ -14,7 +14,6 @@ const Page = () => {
       <Services />
       <Solutions />
       <Testimonials />
-
       <section className="bg-gray-100">
         <Contact />
       </section>

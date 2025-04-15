@@ -11,7 +11,6 @@ const Cards = () => {
   const [sliderRef, instanceRef] = useKeenSlider<HTMLDivElement>({
     slides: {
       perView: 1,
-      spacing: 15,
     },
   });
 
@@ -25,17 +24,17 @@ const Cards = () => {
         </div>
       </div>
 
-      <div ref={sliderRef} className="keen-slider max-w-2xl">
+      <div ref={sliderRef} className="keen-slider">
         {testimonials.map((testimonial, index) => (
-          <div key={index} className="keen-slider__slide flex justify-center">
+          <div key={index} className="keen-slider__slide">
             <Card className="bg-transparent shadow-none flex flex-col justify-between py-4">
-              <CardBody className="flex-1  py-4">
-                <p className="text-lg leading-relaxed">
+              <CardBody className="flex-1 py-4">
+                <p className="text-lg leading-relaxed font-medium">
                   "{testimonial.message}"
                 </p>
               </CardBody>
 
-              <CardFooter className="px-6 pb-4">
+              <CardFooter className="">
                 <div className="w-full">
                   <Divider className="my-4" />
                   <h4 className="font-semibold text-gray-900 uppercase text-2xl">

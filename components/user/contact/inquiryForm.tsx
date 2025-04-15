@@ -131,7 +131,7 @@ const InquiryForm = () => {
                 endContent={<LuArrowRight />}
                 isLoading={isSubmitting}
               >
-                Send Inquiry
+                Submit Inquiry
               </Button>
             </div>
           </div>

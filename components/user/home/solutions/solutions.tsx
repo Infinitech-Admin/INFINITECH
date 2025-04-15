@@ -15,8 +15,8 @@ const Solutions = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 items-center">
         <div className="flex justify-center items-center max-w-xl mx-auto px-4">
           <div className="space-y-3">
-            <span className="text-gray-400 text-4xl font-bold">SOLUTIONS</span>
-            <h1 className={`text-3xl text-accent ${poetsen_one.className}`}>
+            <span className="text-gray-400 text-4xl font-bold">OUR SOLUTIONS</span>
+            <h1 className={`text-4xl text-accent ${poetsen_one.className}`}>
               We design & build your custom website
             </h1>
             <div className="space-y-4">

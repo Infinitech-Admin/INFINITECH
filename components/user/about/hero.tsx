@@ -2,7 +2,7 @@
 
 import React from "react";
 import { poetsen_one } from "@/config/fonts";
-import { Image } from "@heroui/react";
+import { Divider, Image } from "@heroui/react";
 import { LuBriefcaseBusiness } from "react-icons/lu";
 
 const Hero = () => {
@@ -26,7 +26,7 @@ const Hero = () => {
             business stand out.
           </p>
         </div>
-        <div className="flex justify-around items-center mt-8">
+        <div className="flex justify-evenly items-center mt-8">
           <div className="flex flex-col items-start space-y-2">
             <div className="inline-flex items-center justify-center bg-blue-200 text-blue-900 p-4 rounded-full">
               <LuBriefcaseBusiness size={32} />
@@ -35,6 +35,8 @@ const Hero = () => {
             <h1 className="text-3xl font-bold text-blue-900">1 year</h1>
             <p className="text-gray-700 text-lg">Driving growth</p>
           </div>
+
+          <Divider orientation="vertical" className="h-48"/>
 
           <div className="flex flex-col items-start space-y-2">
             <div className="inline-flex items-center justify-center bg-blue-200 text-blue-900 p-4 rounded-full">

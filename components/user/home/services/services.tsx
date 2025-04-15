@@ -33,11 +33,11 @@ const Services = () => {
   ];
 
   return (
-    <section className="container mx-auto lg:py-12 px-4 pb-12 md:pb-0">
+    <section className="container mx-auto lg:py-24 px-4 pb-12 md:pb-0">
       <div className="flex flex-col justify-center items-center">
         <div className="flex justify-between">
-          <div className="max-w-lg text-center">
-            <h1 className="text-4xl text-accent font-bold">SERVICES</h1>
+          <div className="max-w-xl text-center">
+            <h1 className="text-4xl text-accent font-bold">OUR SERVICES</h1>
             <h1 className={`text-3xl text-primary ${poetsen_one.className}`}>
               Building Innovative Digital Solutions for Your Business
             </h1>
@@ -63,11 +63,11 @@ const Services = () => {
                   className={`flex justify-center items-center order-${index % 2 == 0 ? 1 : 2}`}
                 >
                   <div className="max-w-lg">
-                    <span className="text-4xl text-accent font-bold">
+                    <span className="text-xl text-accent font-bold">
                       {service.title}
                     </span>
                     <h1
-                      className={`text-3xl font-bold mt-2 ${poetsen_one.className}`}
+                      className={`text-3xl text-blue-950 font-bold mt-2 ${poetsen_one.className}`}
                     >
                       {service.subtitle}
                     </h1>
